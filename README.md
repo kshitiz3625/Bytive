@@ -2,7 +2,7 @@
 A RESTful API service built with Node.js, Express, and MongoDB for managing a todo list application. This API allows you to create, read, update, and delete tasks with their titles, descriptions, and status.
 
 
-Features:
+# Features:
 • Create new tasks with title and description
 • Fetch all tasks or a single task by ID
 • Update task status (pending, in-progress, completed)
@@ -12,7 +12,7 @@ Features:
 • CORS enabled for cross-origin requests
 
 
-Prerequisites:
+## Prerequisites:
 Before running this project, make sure you have-
 • Node.js (v14 or higher)
 • npm (Node Package Manager)
