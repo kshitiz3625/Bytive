@@ -1,8 +1,8 @@
-# Todo List API:
+# Todo List API
 A RESTful API service built with Node.js, Express, and MongoDB for managing a todo list application. This API allows you to create, read, update, and delete tasks with their titles, descriptions, and status.
 
 
-# Features:
+## Features
 • Create new tasks with title and description
 • Fetch all tasks or a single task by ID
 • Update task status (pending, in-progress, completed)
@@ -12,16 +12,16 @@ A RESTful API service built with Node.js, Express, and MongoDB for managing a to
 • CORS enabled for cross-origin requests
 
 
-## Prerequisites:
+## Prerequisites
 Before running this project, make sure you have-
 • Node.js (v14 or higher)
 • npm (Node Package Manager)
 • MongoDB Atlas account (or local MongoDB installation)
 
 
-API Endpoints:
+## API Endpoints
 
-• Create a Task:
+### Create a Task
 POST: '/tasks'
 Body:
 {
@@ -30,26 +30,26 @@ Body:
     "status": "pending" // optional, defaults to "pending"
 }
 
-• Get All Tasks:
+### Get All Tasks
 GET: /tasks
 
-• Get Task by ID:
+### Get Task by ID
 GET: /tasks/:id
 
-• Update Task Status:
+### Update Task Status
 PUT: /tasks/:id
 Body:
 {
     "status": "in-progress" // "pending", "in-progress", or "completed"
 }
 
-• Delete Task:
+### Delete Task
 DELETE: /tasks/:id
 
 
-Response Formats:
+## Response Formats
 
-• Success Response:
+### Success Response
 {
     "_id": "task_id",
     "title": "Task title",
@@ -59,17 +59,17 @@ Response Formats:
     "updatedAt": "timestamp"
 }
 
-• Error Response:
+### Error Response
 {
     "error": "Error message"
 }
 
 
-Testing:
+## Testing
 You can test the API using Postman or any other API testing tool. Import the provided Postman collection for quick testing.
 
 
-Error Handling:
+## Error Handling
 
 The API includes error handling for:
 • Invalid request data
@@ -78,7 +78,7 @@ The API includes error handling for:
 • Server errors
 
 
-Technologies Used:
+### Technologies Used
 • Node.js
 • Express.js
 • MongoDB
