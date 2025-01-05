@@ -23,7 +23,6 @@ Before running this project, make sure you have-
 
 ### Create a Task
 POST: '/tasks'
-Body:
 {
     "title": "Task title",
     "description": "Task description",
@@ -38,7 +37,6 @@ GET: /tasks/:id
 
 ### Update Task Status
 PUT: /tasks/:id
-Body:
 {
     "status": "in-progress" // "pending", "in-progress", or "completed"
 }
@@ -78,7 +76,7 @@ The API includes error handling for:
 • Server errors
 
 
-### Technologies Used
+## Technologies Used
 • Node.js
 • Express.js
 • MongoDB
